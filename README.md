@@ -20,8 +20,7 @@ matplotlib (optional, for plotting)
 seaborn (optional, for enhanced visualizations)
 You can install these dependencies using the following command:
 
-bash
-Copy code
+
 pip install numpy pandas scikit-learn matplotlib seaborn
 Dataset
 The dataset used in this project is the "Gold Price Data" CSV file. It contains various economic indicators (such as stock prices and exchange rates) and their corresponding gold prices. Make sure you have the file gld_price_data.csv in the project directory.
@@ -29,21 +28,15 @@ The dataset used in this project is the "Gold Price Data" CSV file. It contains 
 How to Run
 Clone the repository:
 
-bash
-Copy code
 git clone https://github.com/Ashwinkarnati/goldpricepredictor.git
 Navigate to the project directory:
 
-bash
-Copy code
 cd goldpricepredictor
 Ensure the dataset is available:
 
 Place the gld_price_data.csv file in the project directory.
 Run the Python script:
 
-bash
-Copy code
 python goldpricepredictor.py
 Use the GUI:
 
@@ -59,8 +52,7 @@ GUI Example
 The GUI is designed for simple and intuitive input. Here’s a visual representation of the interface and how to use it:
 
 Interface Layout
-less
-Copy code
+
 --------------------------------------------
 |  SPX (S&P 500 Index): [Enter Value]      |
 |  USO (Crude Oil Prices): [Enter Value]   |
